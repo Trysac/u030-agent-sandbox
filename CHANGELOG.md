@@ -9,4 +9,5 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Add `agent_sandbox`: a policy guard for agent shell commands with allow-listed absolute executables, path roots, redacted audit log, scrubbed environment, process-tree timeout and capped output, plus `FakeProcessRunner` for tests.
 - Initial project structure from the factory utility template.

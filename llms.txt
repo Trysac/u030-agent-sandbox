@@ -1,16 +1,15 @@
 # agent-sandbox
 
-> Policy guard for agent shell commands: allow-listed absolute executables, path roots, process-tree timeout, capped output and scrubbed environment Python package `trysac-agent-sandbox`, import name `agent_sandbox`, MIT licensed,
-> Python >= 3.10, no runtime dependencies.
+> Policy guard for agent shell commands: allow-listed absolute executables, path roots, process-tree timeout, capped output and scrubbed environment. Python package `trysac-agent-sandbox`, import name `agent_sandbox`, MIT licensed, Python >= 3.10, no runtime dependencies. It is a policy guard, not a security boundary.
 
 ## Docs
 
-- [README](README.md): problem, install, usage example
-- [AGENTS](AGENTS.md): commands, folder map, conventions, limits
-- [Architecture](docs/ARCHITECTURE.md): shape of the package and its public API
-- [Testing](docs/TESTING.md): how to run and extend the tests
+- [README](README.md): problem, install, usage example, public API
+- [Architecture](docs/ARCHITECTURE.md): modules and shape of the package
+- [Security](docs/SECURITY.md): threat model, defended and not defended
+- [Testing](docs/TESTING.md): what the tests cover and how to run them
 
 ## Optional
 
 - [Stack](docs/STACK.md): tools used and discarded
-- [Changelog](CHANGELOG.md): release history
+- [Project](docs/PROJECT.md): objective, scope
